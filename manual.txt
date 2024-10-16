@@ -1,0 +1,12 @@
+Dependencies to install
+- Composer
+- xampp
+- php
+
+1. opan xampp
+2. start Apache and MySQL
+3. click admin in MySQL
+4. create database "ice-hotel"
+5. open in terminal/command prompt (......../ice-hotel>)
+6. type "php artisan serve"
+7. enjoy yourself

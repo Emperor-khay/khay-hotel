@@ -1,0 +1,38 @@
+.thumb{
+    margin: 10px 5px 0 0;
+    width: 100px;
+}
+
+/* remove on removing design */
+h1, h2, h3, label{
+    color: white;
+}
+
+table {
+    background-color: white;
+}
+
+thead{
+    background-color: gray;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+/* Create the overlay */
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+ /* Any content on top of the overlay */
+ .content {
+    z-index: 999; /* Content above the overlay */
+}
